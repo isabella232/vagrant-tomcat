@@ -1,0 +1,86 @@
+# Explictly set to avoid warning message
+Package {
+  allow_virtual => false,
+}
+
+node /^ubuntu/ {
+
+  exec { 'update-apt-packages':
+    command => '/usr/bin/apt-get update -y',
+	timeout     => 1800,
+  }
+
+
+}
+
+# Separate the Cento 7.0 install until the boundary meter puppet package is fixed
+node /^centos-7-0/ {
+
+ exec { 'update-rpm-packages':
+    command => '/usr/bin/yum update',
+	timeout     => 1800,
+  }
+
+}
+
+node /^centos/ {
+  
+  exec { 'update-rpm-packages':
+    command => '/usr/bin/yum update -y',
+      path => ["/bin/", "/sbin/", "/usr/bin/", "/usr/sbin/"], 
+	timeout     => 1800,
+  }
+##########
+
+   # package { 'tar':
+   #   ensure => installed
+   # }
+
+   # package { 'unzip':
+   #   ensure => installed
+   # }
+
+
+#    class { 'java':
+ #       distribution => 'jdk',
+#  	version => $::java_version,
+  #  }
+
+
+
+
+
+	java::oracle { 'jdk${::java_version}' :
+  		ensure  => 'present',
+    		version => $::java_version,
+      		java_se => 'jdk',
+      }
+
+########
+}
+
+
+#### Added by Prashanta for memcached
+
+#class { 'tomcat':
+# }
+
+ #class { 'tomcat':
+#	   install_from => 'archive',
+  #   	    version      => '7.0.69'
+ #}
+
+
+#class memcached {
+#  package { 'memcached':
+#      ensure => 'latest'
+#        }
+
+
+#  service { 'memcached':
+#	      ensure => running,
+#	          enable => true,
+#		      require => Package['memcached'],
+# }
+
+#}

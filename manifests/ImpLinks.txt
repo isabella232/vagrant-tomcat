@@ -1,0 +1,1 @@
+https://github.com/oscerd/vagrant-centos6.5-tomcat

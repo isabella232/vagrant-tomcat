@@ -1,0 +1,84 @@
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/7.0.69
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Apr 11 2016 07:57:09 UTC
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         7.0.69.0
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Linux
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            2.6.32-504.8.1.el6.x86_64
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /usr/java/jdk1.8.0_51/jre
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_51-b16
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /vagrant/apache-tomcat-7.0.69
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /vagrant/apache-tomcat-7.0.69
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/vagrant/apache-tomcat-7.0.69/conf/logging.properties
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.port=8999
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.rmi.server.hostname=localhost
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=/vagrant/apache-tomcat-7.0.69/endorsed
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/vagrant/apache-tomcat-7.0.69
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/vagrant/apache-tomcat-7.0.69
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/vagrant/apache-tomcat-7.0.69/temp
+Jul 08, 2016 4:49:00 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Jul 08, 2016 4:49:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Jul 08, 2016 4:49:00 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Jul 08, 2016 4:49:00 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1746 ms
+Jul 08, 2016 4:49:01 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Jul 08, 2016 4:49:01 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.69
+Jul 08, 2016 4:49:01 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /vagrant/apache-tomcat-7.0.69/webapps/docs
+Jul 08, 2016 4:49:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /vagrant/apache-tomcat-7.0.69/webapps/docs has finished in 1,320 ms
+Jul 08, 2016 4:49:02 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /vagrant/apache-tomcat-7.0.69/webapps/examples
+Jul 08, 2016 4:49:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /vagrant/apache-tomcat-7.0.69/webapps/examples has finished in 3,557 ms
+Jul 08, 2016 4:49:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /vagrant/apache-tomcat-7.0.69/webapps/host-manager
+Jul 08, 2016 4:49:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /vagrant/apache-tomcat-7.0.69/webapps/host-manager has finished in 404 ms
+Jul 08, 2016 4:49:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /vagrant/apache-tomcat-7.0.69/webapps/manager
+Jul 08, 2016 4:49:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /vagrant/apache-tomcat-7.0.69/webapps/manager has finished in 362 ms
+Jul 08, 2016 4:49:06 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /vagrant/apache-tomcat-7.0.69/webapps/ROOT
+Jul 08, 2016 4:49:07 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory /vagrant/apache-tomcat-7.0.69/webapps/ROOT has finished in 250 ms
+Jul 08, 2016 4:49:07 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Jul 08, 2016 4:49:07 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Jul 08, 2016 4:49:07 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6120 ms
