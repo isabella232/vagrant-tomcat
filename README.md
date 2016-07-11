@@ -16,7 +16,7 @@ Prior to installation you need to obtain in your Boundary API Token.
 
 1. Clone the GitHub Repository:
 ```bash
-$ git clone https://github.com/boundary/boundary-vagrant-tomcat
+$ git clone https://github.com/boundary/vagrant-tomcat
 ```
 
 2. Start the virtual machine using your Boundary API Token:
